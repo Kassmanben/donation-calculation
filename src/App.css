@@ -11,6 +11,9 @@
   line-height: 1.9em;
   min-height: 100vh;
   height: 100%;
+  max-width: 484px;
+  margin: auto;
+  overflow-wrap: anywhere;
 }
 
 input,
@@ -42,10 +45,4 @@ p {
 
 .hidden {
   display: none;
-}
-
-@media screen and (min-width: 1000px) {
-  .App {
-    height: 100vh;
-  }
 }
